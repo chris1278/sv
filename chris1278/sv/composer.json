@@ -1,0 +1,25 @@
+{
+	"name": "chris1278/sv",
+	"type": "phpbb-extension",
+	"description": "Mit dieser Extension kan man vorhandene Einträge die mit Sprachvariabeln ausgegeben werden ersetzen.",
+	"homepage": "",
+	"version": "1.0.0",
+	"time": "2020-12-18",
+	"license": "GPL-2.0-only",
+	"authors": [{
+			"name": "chris1278",
+			"email": "smilie-man@gmx.de",
+			"homepage": "",
+			"role": "Lead Developer"
+		}
+		],
+	"require": {
+		"php": ">=5.3, <8.0"
+	},
+	"extra": {
+		"display-name": "Benutzerdefinierte Sprachvariabeln",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1,<3.4@dev"
+		}
+	}
+}
